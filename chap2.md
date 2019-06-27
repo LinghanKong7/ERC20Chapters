@@ -19,3 +19,4 @@ contract ERC20Interface {
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
 }
 ```
+We will use the above ERC20interface to create our own token and there will be more details come out in next tutorials.

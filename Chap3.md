@@ -1,3 +1,4 @@
+Firstly, we need to understand some of the concepts which will be useful in wirtting your own token.
 
 There are different Visibility in solidity and there are differentiate among them. People can use them by defining new variable or function such as, `address private owner`
 
@@ -24,7 +25,7 @@ In this line, `nextCampaignId` is mapped as the `KeyType`, and the new `campaign
 In the example, the name of mapping type is example, and it map
 
 Try yourself:
-In this example, there should be a mapping for balanacs for each account which should be private, another mapping for owner of account approves the transfer of an amount to another account wihch also should be private and an unsigned integers for store.
+In this example, there should be a mapping for balanacs for each account which should be public, another mapping for owner of account approves the transfer of an amount to another account wihch also should be public and an unsigned integers for store.
 
 
 ```javascripts
